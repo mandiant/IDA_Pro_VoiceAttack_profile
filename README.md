@@ -2,7 +2,7 @@
 
 ## What Is This?
 
-This is a [VoiceAttack](https://voiceattack.com/) profile created for [IDA Pro](https://www.hex-rays.com/products/ida/index.shtml). VoiceAttack is an inexpensive software application that utilizes the [Windows Speech Recognition](https://en.wikipedia.org/wiki/Windows_Speech_Recognition) feature to enable the creation of user-defined, voice-activated macros. The user specifies a key word or phrase, then defines one or more actions to be taken when that word or phrase is recognized. The most common types of actions to be taken include key presses, mouse movement and clicks, clipboard manipulation, and sleeping. However, there are many other more advanced features available that provide a lot of flexibility to users including variables, loops,  and conditionals. You can even have the computer speak to you in response to your commands! For a high level introduction, check out our [release blog](TODO), then come back here for the details.
+This is a [VoiceAttack](https://voiceattack.com/) profile created for [IDA Pro](https://www.hex-rays.com/products/ida/index.shtml). VoiceAttack is an inexpensive software application that utilizes the [Windows Speech Recognition](https://en.wikipedia.org/wiki/Windows_Speech_Recognition) feature to enable the creation of user-defined, voice-activated macros. The user specifies a key word or phrase, then defines one or more actions to be taken when that word or phrase is recognized. The most common types of actions to be taken include key presses, mouse movement and clicks, clipboard manipulation, and sleeping. However, there are many other more advanced features available that provide a lot of flexibility to users including variables, loops,  and conditionals. You can even have the computer speak to you in response to your commands! For a high level introduction, check out our [release blog](https://www.fireeye.com/blog/threat-research/2019/10/controlling-ida-pro-with-voice-control-software.html), then come back here for the details.
 
 
 ## How Do I Install It?
@@ -20,11 +20,11 @@ There is also a companion IDA Pro plugin, `voice_commands.py`, that registers ho
 
 ## Commands
 
-Below is an introduction to some of the types of commands supported by the profile. This is not an exhaustive list, see the [command reference sheet](https://github.com/pages/fireeye/IDA_Pro_Voice_Attack_profile/Reference_sheet.html) for a listing of all the commands.
+Below is an introduction to some of the types of commands supported by the profile. This is not an exhaustive list, see the [command reference sheet](https://fireeye.github.io/IDA_Pro_VoiceAttack_profile/Reference_sheet.html) for a listing of all the commands.
 
 ### Shortcut Commands
 
-All of IDA Pro's advertised keyboard shortcuts have an associated voice command in the profile. In most cases, the voice command will map directly to the name of the menu item or action desired. When in doubt, check the [command reference sheet](https://github.com/pages/fireeye/IDA_Pro_Voice_Attack_profile/Reference_sheet.html). 
+All of IDA Pro's advertised keyboard shortcuts have an associated voice command in the profile. In most cases, the voice command will map directly to the name of the menu item or action desired. When in doubt, check the [command reference sheet](https://fireeye.github.io/IDA_Pro_VoiceAttack_profile/Reference_sheet.html). 
 
 ### Multi-step Commands
 
@@ -51,7 +51,7 @@ These commands recognize the names of Windows and other APIs, C runtime function
 
 All input recognition commands are disabled until specific commands are triggered, such as **"rename"** or **"find"**. This mitigates the risk of accidentally triggering such commands. Commands such as **"OK"**, **"cancel"**, and **"select item"** will disable the input recognition commands again. It is likely that on occasion the input recognition state machine will not be in a desirable state. This can happen if you manually close a dialog you were inputting text for without using a voice command, for example. The commands **"input mode on"** and **"input mode off"** explicitly set the state accordingly.
 
-The input recognition commands are not included in the [command reference sheet](https://github.com/pages/fireeye/IDA_Pro_Voice_Attack_profile/Reference_sheet.html) because there are too many and would make perusing the sheet for commands tedious. If you wish to view these commands, you can edit the profile in VoiceAttack.
+The input recognition commands are not included in the [command reference sheet](https://fireeye.github.io/IDA_Pro_VoiceAttack_profile/Reference_sheet.html) because there are too many and would make perusing the sheet for commands tedious. If you wish to view these commands, you can edit the profile in VoiceAttack.
 
 ## How Can I Help?
 
