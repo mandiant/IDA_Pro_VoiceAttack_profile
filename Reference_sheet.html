@@ -33,2041 +33,2041 @@ thead { cursor:pointer;cursor:hand; }
 <tbody>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>add breakpoint</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Add/toggle a breakpoint to currently highlighted address in IDA View</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>debugger</div></td>
 <td style='word-wrap:break-word'>Press F2 key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>toggle breakpoint</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Add/toggle a breakpoint to currently highlighted address in IDA View</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>debugger</div></td>
 <td style='word-wrap:break-word'>Press F2 key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>cancel</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Cancel the current dialog and set input mode off</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
 <td style='word-wrap:break-word'>Press Escape key and hold for 0.1 seconds and release, Set Boolean [jumping] to False, Set Boolean [addressInput] to False</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>check box</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Toggle the currently focused checkbox control in a dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
 <td style='word-wrap:break-word'>Press Space key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog ok</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Assumes the common dialog where tabbing once selects the OK button. Clicks the OK button and disabled input mode</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
+<td style='word-wrap:break-word'>Press Tab key and hold for 0.1 seconds and release, Press Space key and hold for 0.1 seconds and release, Set Boolean [addressInput] to False</td>
+</tr>
+<tr class='r1'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>never show again</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Dismisses dialog after checking the "never show again" option</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
+<td style='word-wrap:break-word'>Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Space key and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>ok</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Assumes the common dialog where pressing Enter key is equivalent to clicking the OK button. Does so and disables input mode</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
 <td style='word-wrap:break-word'>Press Enter key and hold for 0.01 seconds and release, Begin Boolean Compare : [addressInput] Equals True, Set Boolean [addressInput] to False, Begin Boolean Compare : [jumping] Equals True, Set Boolean [jumping] to False, End Condition, End Condition</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>ok 2</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "ok" command twice</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
 <td style='word-wrap:break-word'>Press Enter key and hold for 0.01 seconds and release, Begin Boolean Compare : [addressInput] Equals True, Set Boolean [addressInput] to False, Begin Boolean Compare : [jumping] Equals True, Set Boolean [jumping] to False, End Condition, End Condition</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>tab back</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set focus on the previous control item in the dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+Tab keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>tab back 2</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "tab back" command twice</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+Tab keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>tab back 3</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "tab back" command three times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+Tab keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>tab back 4</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "tab back" command four times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+Tab keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>tab next</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set focus on the next control item in the dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
 <td style='word-wrap:break-word'>Press Tab key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>tab next 2</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat "tab next" command twice</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
 <td style='word-wrap:break-word'>Press Tab key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>tab next 3</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat "tab next" command three times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
 <td style='word-wrap:break-word'>Press Tab key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>tab next 4</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat "tab next" command four times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
 <td style='word-wrap:break-word'>Press Tab key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>toggle check box</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Toggle the currently focused checkbox control in a dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog</div></td>
 <td style='word-wrap:break-word'>Press Space key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>abort selection</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
-<td style='word-wrap:break-word'>Press Left Alt+L keys and hold for 0.001 seconds and release</td>
-</tr>
-<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>add anterior lines</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Enter lines preceding the generated lines</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Insert key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>add comment</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Enter a regular comment</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Right Shift+; : keys and hold for 0.001 seconds and release, Set Boolean [addressInput] to True</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>add posterior lines</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Enter lines following the generated lines</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+Insert keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>add repeatable comment</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Enter repeatable comment</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press ; : key and hold for 0.001 seconds and release, Set Boolean [addressInput] to True</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>decompile</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Generate pseudocode</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press F5 key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>dive in</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to the highlighted address</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Enter key and hold for 0.1 seconds and release, Pause 1 second</td>
 </tr>
-<tr class='r0'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>end selection</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
-<td style='word-wrap:break-word'>Press Left Alt+L keys and hold for 0.001 seconds and release</td>
-</tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>fit window</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Fit window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press W key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>look it up</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>copies currently highlighted item and opens your default browser</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Copies currently highlighted item and opens your default browser</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Execute command, 'select identifier' (and wait until it completes), Pause 0.2 seconds, Press Left Ctrl+C keys and hold for 0.001 seconds and release, Run application 'C:\Windows\System32\cmd.exe' -with parameters '/C start "" "https://www.google.com/search?q={CLIP}"' - wait until it completes</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next word</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Move one word right</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Right keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next word 2</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat "next word" command twice</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Right keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next word 3</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat "next word" command three times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Right keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next word 4</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat "next word" command four times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Right keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next word 5</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat "next word" command five times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Right keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>previous word</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Move one word left</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>previous word 2</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat "previous word" command twice</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>previous word 3</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat "previous word" command three times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>previous word 4</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat "previous word" command four times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>previous word 5</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat "previous word" command five times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>recenter</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Changes the disassembly view, then changes it back, effectively recentering your view</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Space key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>refocus</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jumps to next instruction, then backs up to previous instruction; useful for find where you are in the code when in a large function in graph mode</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Execute command, 'next code' (and wait until it completes), Press Up key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>select first operand</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Moves cursor to first operand on current disassembly line</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Right keys and hold for 0.001 seconds and release, Press Left Ctrl+Right keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>select second operand</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Moves cursor to second operand on current disassembly line</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Right keys and hold for 0.001 seconds and release, Press Left Ctrl+Right keys and hold for 0.001 seconds and release, Press Left Ctrl+Right keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>select third operand</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Moves cursor to third operand on current disassembly line</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Left keys and hold for 0.001 seconds and release, Press Left Ctrl+Right keys and hold for 0.001 seconds and release, Press Left Ctrl+Right keys and hold for 0.001 seconds and release, Press Left Ctrl+Right keys and hold for 0.001 seconds and release, Press Left Ctrl+Right keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>toggle disassembly view</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Toggles the disassembly view (graph/linear)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>disassembly</div></td>
 <td style='word-wrap:break-word'>Press Space key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>begin selection</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>abort selection</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Begin or end selection</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+L keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>begin selection</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Begin or end selection</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
+<td style='word-wrap:break-word'>Press Left Alt+L keys and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change callee address</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Change the callee address</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+F11 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand manually</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Enter the current operand manually</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+F1 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand sign</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Change the sign of the current operand</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+- _ keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand to binary</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a binary number</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press B key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand to character</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a character constant</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press R key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand to data segment offset</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to an offset in the data segment</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press O key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand to decimal</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a decimal number</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press H key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand to enum member</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a symbolic constant</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press M key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand to hex</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a hexadecimal number</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
+<td style='word-wrap:break-word'>Press Q key and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r0'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand to hexadecimal</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a hexadecimal number</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Q key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand to hexadecimal</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
-<td style='word-wrap:break-word'>Press Q key and hold for 0.001 seconds and release</td>
-</tr>
-<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand to segment</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a segment base</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press S key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand to segment offset</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to an offset in the current segment</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+O keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand to stack variable</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a stack variable</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press K key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand to structure offset</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a structure offset</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press T key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand to symbolic constant</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a symbolic constant</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press M key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change operand to user defined offset</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to an offset with any base</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+R keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change segment register value</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Change segment register value</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+G keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>change stack pointer</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Change stack pointer</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+K keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>create function</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Create a function at current address</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press P key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>create structure from selection</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Creates structure from selected data in current IDA View</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Alt key and hold for 0.001 seconds and release, Press E key and hold for 0.001 seconds and release, Press T key and hold for 0.001 seconds and release, Press S key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>data offset</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to an offset in the data segment</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press O key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit function</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Edit function attributes</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+P keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit segment</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Edit segment attributes</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+S keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>error operand</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
-<td style='word-wrap:break-word'>Press Left Ctrl+F keys and hold for 0.001 seconds and release</td>
-</tr>
 <tr class='r0'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>end selection</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Begin or end selection</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
+<td style='word-wrap:break-word'>Press Left Alt+L keys and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>export data</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Export current item in IDA View to specified format</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+E keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>make array</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert to array</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+8 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>make binary</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a binary number</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press B key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>make character</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a character constant</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press R key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>make code</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert to instruction</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press C key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>make data</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
-<td style='word-wrap:break-word'>Press D key and hold for 0.001 seconds and release</td>
-</tr>
-<tr class='r0'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>make data 2</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert to data</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press D key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>make data 3</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>make data 2</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "make data" command twice</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press D key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>make data 3</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "make data" command three times</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
+<td style='word-wrap:break-word'>Press D key and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>make decimal</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a decimal number</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press H key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>make enum</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a symbolic constant</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press M key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>make hex</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a hexadecimal number</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Q key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>make string</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert to string</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press A key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>make struct var</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Declare a structure variable</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
+<td style='word-wrap:break-word'>Press Left Alt+Q keys and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r0'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>make structure variable</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Declare a structure variable</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+Q keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>make structure variable</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
-<td style='word-wrap:break-word'>Press Left Alt+Q keys and hold for 0.001 seconds and release</td>
-</tr>
-<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>make unicode string</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert to unicode string</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+A keys and hold for 0.001 seconds and release, Pause 0.2 seconds, Press U key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>negate operand</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Perform bitwise negation of the current operand</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+` ~ keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>never show again</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
-<td style='word-wrap:break-word'>Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Space key and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
-</tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>quick run plugins</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the "Quick run plugin" dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+3 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>rebase program</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Opens the "rebase program" dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Execute command, 'open edit menu' (and wait until it completes), Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Right key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release, Set Boolean [addressInput] to True, Pause 1 second, Press 0 key and hold for 0.001 seconds and release, Press X key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>redo action</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Redo last undone action</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Y keys and hold for 0.1 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>rename</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Rename the current location</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press N key and hold for 0.1 seconds and release, Set Boolean [addressInput] to True</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>segment offset</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to an offset in the current segment</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+O keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>select identifier</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Select current identifier</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+Enter keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>setup data types</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the "Setup data types" dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+D keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show plugins</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the "Quick run plugin" dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+3 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show stack variables</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the stack variables window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+K keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show stack vars</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the stack variables window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+K keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>stack variable</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a stack variable</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press K key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>start selection</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Begin selection</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+L keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>string literals</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Setup string literal style</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+A keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>structure offset</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a structure offset</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press T key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>symbolic constant</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to a symbolic constant</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press M key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>undefine</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Undefine the current item</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press U key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>undo action</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Undo the previous action</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Z keys and hold for 0.1 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>user offset</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Convert the current operand to an offset with any base</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>edit</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+R keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>create assembler file</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Create an assembler file</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+F10 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>create c file</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Create C file</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
-<td style='word-wrap:break-word'>Press Left Ctrl+F10 keys and hold for 0.001 seconds and release, Press Left Ctrl+F5 keys and hold for 0.001 seconds and release</td>
+<td style='word-wrap:break-word'>Press Left Ctrl+F5 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>create I D T file</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Create IDT file</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+F6 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>exit ida</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Exits IDA Pro and dismisses dialog with default selections</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
-<td style='word-wrap:break-word'>Press Left Alt+X keys and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Press Space key and hold for 0.001 seconds and release</td>
+<td style='word-wrap:break-word'>Press Left Alt+X keys and hold for 0.001 seconds and release, Pause 0.5 seconds, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>exit ida without saving</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Exits IDA Pro, checking the option to NOT save the database before accepting the warning dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+X keys and hold for 0.001 seconds and release, Pause 0.5 seconds, Press Tab key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Space key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>load binary file</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Opens the "load binary file" dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
-<td style='word-wrap:break-word'>Execute command, 'open file menu' (and wait until it completes), Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Right key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
+<td style='word-wrap:break-word'>Press Left Alt key and hold for 0.001 seconds and release, Press F key and hold for 0.001 seconds and release, Press L key and hold for 0.001 seconds and release, Press B key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>load flirt file</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Opens the "load flirt file" dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
 <td style='word-wrap:break-word'>Press Left Alt key and hold for 0.001 seconds and release, Press F key and hold for 0.001 seconds and release, Press L key and hold for 0.001 seconds and release, Press F key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>load flirt signature</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Opens the "load flirt signature" dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
 <td style='word-wrap:break-word'>Press Left Alt key and hold for 0.001 seconds and release, Press F key and hold for 0.001 seconds and release, Press L key and hold for 0.001 seconds and release, Press F key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>load header file</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Opens the "load header file" dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+F9 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>parse header file</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Opens the "load header file" dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+F9 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>repeat last command</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
-<td style='word-wrap:break-word'>Press Left Ctrl+Left Shift+R keys and hold for 0.001 seconds and release</td>
-</tr>
-<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>run script command</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Execute a script command</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+F2 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>run script file</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Execute a script file</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+F7 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>save</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Save database</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+W keys and hold for 0.001 seconds and release</td>
-</tr>
-<tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>save and exit ida</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
-<td style='word-wrap:break-word'>Press Left Alt+X keys and hold for 0.001 seconds and release, Pause 0.5 seconds, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>save and exit ida</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Saves database and exits IDA Pro and dismisses dialog with default selections</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
+<td style='word-wrap:break-word'>Press Left Ctrl+W keys and hold for 0.001 seconds and release, Press Left Alt+X keys and hold for 0.001 seconds and release, Pause 0.5 seconds, Press Enter key and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>save database</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Save database</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+W keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>take database snapshot</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Take database snapshot</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>file</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Shift+W keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>alt tab</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Switch desktop window focus</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+Tab keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>alt tab 2</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "alt tab" command twice</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press down Left Alt key, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Release Left Alt key</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>alt tab 3</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "alt tab" command three times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press down Left Alt key, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Release Left Alt key</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>alt tab 4</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "alt tab" command four times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press down Left Alt key, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Release Left Alt key</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>alt tab 5</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "alt tab" command five times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press down Left Alt key, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Release Left Alt key</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>backspace</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Press the Backspace/Delete key</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Back key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>click here</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Left mouse click</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Click left mouse button</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>collapse</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Collapse/hide the current item</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+NumPad Subtract keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>compare lists</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Slowly page down in two separate scrolling windows for easy comparison by eye</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Page Down, Next key and hold for 0.001 seconds and release, Pause 2 seconds, Execute command, 'alt tab' (and wait until it completes), Press Page Down, Next key and hold for 0.001 seconds and release, Pause 2 seconds</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>copy</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>also under input recognition</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Presses Ctrl-C to copy currently selected text/item. "copy" is also recognized in input recognition.</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Begin Boolean Compare : [addressInput] Equals False, Press Left Ctrl+C keys and hold for 0.001 seconds and release, Else, Set Windows clipboard to 'cpy', Press Left Ctrl+V keys and hold for 0.001 seconds and release, End Condition</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>expand</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Expand/unhide the current item</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+NumPad Add keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Move the cursor down</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Down key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down 2</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeats the "go down" command twice</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Down key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down 3</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
-<td style='word-wrap:break-word'>Press Down key and hold for 0.001 seconds and release</td>
-</tr>
-<tr class='r0'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down 4</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeats the "go down" command three times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Down key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down 5</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down 4</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeats the "go down" command four times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Down key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down 5</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeats the "go down" command five times</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
+<td style='word-wrap:break-word'>Press Down key and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down a lot</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Continually moves the cursor down until the "stop command" command is executed. If the speed is set to medium or fast, use page down instead of down arrow</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Begin Condition : [speed] Equals 0 OR [speed] Equals 1, Press Down key and hold for 0.001 seconds and release, Pause 0.001 seconds, Else If Small Integer Compare : [speed] Equals 2, Press Page Down, Next key and hold for 0.001 seconds and release, Pause 1 second, Else, Press Page Down, Next key and hold for 0.001 seconds and release, Pause 0.05 seconds, End Condition</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down forty</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeats the "go down" command forty times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Down key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down ten</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeats the "go down" command ten times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Down key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down twenty</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeats the "go down" command twenty times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Down key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go left</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Move the cursor left</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Left key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go left 2</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go left" command twice</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Left key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go left 3</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
-<td style='word-wrap:break-word'>Press Left key and hold for 0.001 seconds and release</td>
-</tr>
-<tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go left 4</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go left" command three times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Left key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go left 5</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go left 4</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go left" command four times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Left key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go left 5</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go left" command five times</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
+<td style='word-wrap:break-word'>Press Left key and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go left a lot</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeats the "go left" command until the "stop command" command is executed</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Left key and hold for 0.001 seconds and release, Pause 0.001 seconds</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go left forty</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go left" command forty times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Left key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go left ten</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go left" command ten times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Left key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go left twenty</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go left" command twenty times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Left key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go right</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Move the cursor right</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Right key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go right 2</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go right" command twice</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Right key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go right 3</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
-<td style='word-wrap:break-word'>Press Right key and hold for 0.001 seconds and release</td>
-</tr>
-<tr class='r0'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go right 4</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go right" command three times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Right key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go right 5</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go right 4</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go right" command four times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Right key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go right 5</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go right" command five times</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
+<td style='word-wrap:break-word'>Press Right key and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go right a lot</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go right" command until the "stop command" command is executed</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Right key and hold for 0.001 seconds and release, Pause 0.001 seconds</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go right forty</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go right" command forty times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Right key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go right ten</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go right" command ten times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Right key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go right twenty</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go right" command twenty times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Right key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Move the cursor up</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Up key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up 2</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go up" command twice</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Up key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up 3</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
-<td style='word-wrap:break-word'>Press Up key and hold for 0.001 seconds and release</td>
-</tr>
-<tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up 4</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go up" command three times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Up key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up 5</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up 4</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go up" command four times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Up key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up 5</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go up" command five times</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
+<td style='word-wrap:break-word'>Press Up key and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up a lot</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go up" command until the "stop command" command is executed</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Begin Condition : [speed] Equals 0 OR [speed] Equals 1, Press Up key and hold for 0.001 seconds and release, Pause 0.001 seconds, Else If Small Integer Compare : [speed] Equals 2, Press Page Up key and hold for 0.001 seconds and release, Pause 1 second, Else, Press Page Up key and hold for 0.001 seconds and release, Pause 0.05 seconds, End Condition</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up forty</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
-<td style='word-wrap:break-word'>Press Up key and hold for 0.001 seconds and release</td>
-</tr>
-<tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up ten</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go up" command forty times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Up key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up twenty</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up ten</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go up" command ten times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Up key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up twenty</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go up" command twenty times</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
+<td style='word-wrap:break-word'>Press Up key and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>hold on</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Stops VoiceAttack from listening to your commands, resume with the "i'm back" or "start listening" commands</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Stop VoiceAttack listening, Say, 'i'll be waiting'</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>im back</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Have VoiceAttack listen for your commands after having it stop with the "hold on" or "stop listening" commands</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Start VoiceAttack listening, Say, 'welcome back'</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>input mode</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Enables input mode to speak words to be pasted into text input</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Set Boolean [addressInput] to True, Say, 'input mode on'</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>input mode off</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Disables input mode</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Set Boolean [addressInput] to False, Say, 'input mode off'</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>insert</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Press the Insert key</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Insert key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>page down</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Press the Page Down key</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Page Down, Next key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>page up</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Press the Page Up key</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Page Up key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>paste</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Press Ctrl-V to paste from your clipboard</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+V keys and hold for 0.001 seconds and release</td>
 </tr>
+<tr class='r0'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>repeat last command</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat last palette command</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
+<td style='word-wrap:break-word'>Press Left Ctrl+Left Shift+R keys and hold for 0.001 seconds and release</td>
+</tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>scroll down a bit</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Scroll mouse wheel backward two clicks</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Scroll mouse wheel backward 2 clicks</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>scroll down a little</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Scroll mouse wheel backward two clicks</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Scroll mouse wheel backward 2 clicks</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>scroll down a lot</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Scroll mouse wheel backward continuously until the "stop command" command is executed</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Execute command, 'scroll down a bit' , Pause 0.2 seconds</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>scroll down some</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Scroll mouse wheel backward four clicks</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Scroll mouse wheel backward 4 clicks</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>scroll up a bit</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Scroll mouse wheel forward two clicks</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Scroll mouse wheel forward 2 clicks</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>scroll up a little</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Scroll mouse wheel forward two clicks</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Scroll mouse wheel forward 2 clicks</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>scroll up a lot</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Scroll mouse wheel forward continuously until the "stop command" command is executed</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Execute command, 'scroll up a bit' , Pause 0.2 seconds</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>scroll up some</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Scroll mouse wheel forward four clicks</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Scroll mouse wheel forward 4 clicks</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>select item</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Press the Enter key and disable input mode</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Enter key and hold for 0.001 seconds and release, Begin Boolean Compare : [jumping] Equals True, Set Boolean [jumping] to False, End Condition, Set Boolean [addressInput] to False</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>set speed to fast</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set speed for "go down a lot" and "go up a lot" commands</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Set small int (condition) [speed] value to 3, Say, 'speed set to fast'</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>set speed to medium</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set speed for "go down a lot" and "go up a lot" commands</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Set small int (condition) [speed] value to 2, Say, 'speed set to medium'</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>set speed to slow</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set speed for "go down a lot" and "go up a lot" commands</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Set small int (condition) [speed] value to 1, Say, 'speed set to slow'</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>space bar</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Press the Space key</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Press Space key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>start listening</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Have VoiceAttack listen for your commands after having it stop with the "hold on" or "stop listening" commands</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Start VoiceAttack listening, Say, 'welcome back'</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>stop command</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Stops any commands that run continuously</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Kill command, 'scroll down a lot', Kill command, 'scroll up a lot', Kill command, 'scroll down blocks', Kill command, 'scroll up blocks', Kill command, 'go down a lot', Kill command, 'go up a lot', Kill command, 'go left a lot', Kill command, 'go right a lot', Kill command, 'compare lists'</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>stop listening</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Stops VoiceAttack from listening to your commands, resume with the "i'm back" or "start listening" commands</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Stop VoiceAttack listening, Say, 'i'll be waiting'</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>stop scrolling</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Stops any commands that run continuously</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Kill command, 'scroll down a lot', Kill command, 'scroll up a lot', Kill command, 'scroll down blocks', Kill command, 'scroll up blocks', Kill command, 'go down a lot', Kill command, 'go up a lot', Kill command, 'go left a lot', Kill command, 'go right a lot', Kill command, 'compare lists'</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>undo</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>also under input recognition</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Undo last action. "undo" is also recognized in input recognition</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>general</div></td>
 <td style='word-wrap:break-word'>Begin Boolean Compare : [addressInput] Equals False, Press Left Ctrl+Z keys and hold for 0.001 seconds and release, Else, Set Windows clipboard to 'undo', Press Left Ctrl+V keys and hold for 0.001 seconds and release, End Condition</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show help</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Shows help for IDA Pro</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>help</div></td>
 <td style='word-wrap:break-word'>Press F1 key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>clear mark</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Choose a marked position to delete</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
-<td style='word-wrap:break-word'>Execute command, 'open jump menu' (and wait until it completes), Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
+<td style='word-wrap:break-word'>Press Left Alt key and hold for 0.001 seconds and release, Press J key and hold for 0.001 seconds and release, Press L key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>entry point</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>also belongs to input recognition</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to the selected entry point. "entry point" is also recognized in input recognition</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Begin Boolean Compare : [addressInput] Equals False, Press Left Ctrl+E keys and hold for 0.001 seconds and release, Else, Set Windows clipboard to 'entrypoint', Press Left Ctrl+V keys and hold for 0.001 seconds and release, End Condition</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>fall through</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to false branch block</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>follow false branch</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to false branch block</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>follow green branch</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to true branch block</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>follow red branch</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to false branch block</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>follow true branch</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to true branch block</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>function end</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the end of the function (requires the plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+2 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>function start</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the beginning of the function (requires the plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+1 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go back</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Go to previous breadcrumb/cancel dialog. Disables input mode</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Escape key and hold for 0.1 seconds and release, Set Boolean [jumping] to False, Set Boolean [addressInput] to False</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go back 2</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go back" command twice</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Escape key and hold for 0.1 seconds and release, Set Boolean [jumping] to False, Set Boolean [addressInput] to False</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go back 3</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go back" command three times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Escape key and hold for 0.1 seconds and release, Set Boolean [jumping] to False, Set Boolean [addressInput] to False</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go back 4</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go back" command four times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Escape key and hold for 0.1 seconds and release, Set Boolean [jumping] to False, Set Boolean [addressInput] to False</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down 2 blocks</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor two basic blocks down</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release, Pause 0.2 seconds</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down 3 blocks</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor three basic blocks down</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release, Pause 0.2 seconds</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down 4 blocks</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor four basic blocks down</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release, Pause 0.2 seconds</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go down 5 blocks</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor five basic blocks down</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release, Pause 0.2 seconds</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go forward</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Go to the next breadcrumb</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Enter keys and hold for 0.1 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go forward 2</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go forward" command twice</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Enter keys and hold for 0.1 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go forward 3</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go forward" command three times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Enter keys and hold for 0.1 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go forward 4</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat the "go forward" command four times</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Enter keys and hold for 0.1 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go to address</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open "jump to address" dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press G key and hold for 0.1 seconds and release, Set Boolean [addressInput] to True, Set Boolean [jumping] to True</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go to end of function</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the end of the function (requires the plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+2 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go to next call</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the next "call" instruction (requires the plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+6 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go to previous call</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the previous "call" instruction (requires the plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+7 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go to start of function</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the beginning of the function (requires the plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+1 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go to the end of the function</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the end of the function (requires the plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+2 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go to the start of the function</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the beginning of the function (requires the plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+1 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up 2 blocks</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate the cursor two blocks up</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Up keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release, Pause 0.2 seconds</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up 3 blocks</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate the cursor three blocks up</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Up keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release, Pause 0.2 seconds</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up 4 blocks</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate the cursor four blocks up</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Up keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release, Pause 0.2 seconds</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>go up 5 blocks</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate the cursor five blocks up</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Up keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release, Pause 0.2 seconds</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to the specified address</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump ahead</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump ahead by a relative number of bytes from current address (requires plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+9 keys and hold for 0.1 seconds and release, Set Boolean [addressInput] to True</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump back</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump backwards by a relative number of bytes from current address (requires plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+0 keys and hold for 0.1 seconds and release, Set Boolean [addressInput] to True</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump by name</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to the selected name</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+L keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump forward</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump ahead by a relative number of bytes from current address (requires plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+9 keys and hold for 0.1 seconds and release, Set Boolean [addressInput] to True</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump in a new window</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump in a new window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+Enter keys and hold for 0.1 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump to entry point</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to the selected entry point</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+E keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump to function</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to the selected function</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+P keys and hold for 0.001 seconds and release, Set Boolean [jumping] to True</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump to marked position</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to the selected marked position</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+M keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump to problem</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to the selected problematic location</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Q keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump to segment</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to the selected segment</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+S keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump to segment register</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to the selected segment register change point</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+G keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>list cross refs from</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to a cross reference from current location</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+J keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>list cross refs to</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to the selected cross reference</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+X keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>mark position</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Remember the current position in the disassmbly</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+M keys and hold for 0.001 seconds and release, Set Boolean [addressInput] to True</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next block</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the next block</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next call</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the next "call" instruction (requires the plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+6 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next function</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the next function in the binary</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Shift+Down keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next node</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the next block</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next token</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to next address whose instruction contains the same token that is currently highlighted (requires the plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+4 keys and hold for 0.1 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>previous block</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the previous block</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Up keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>previous call</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the previous "call" instruction (requires the plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+7 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>previous function</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the previous function in the binary</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Shift+Up keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>previous node</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the next block</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Up keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>previous token</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate cursor to the closest previous address whose instruction contains the same token that is currently highlighted (requires the plugin)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+Left Shift+5 keys and hold for 0.1 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>scroll down blocks</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate to the next block continuously until the "stop command" command is executed</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release, Pause 0.2 seconds</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>scroll up blocks</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Navigate to the previous block continuously until the "stop command" command is executed</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Up keys and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release, Pause 0.2 seconds</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show cross refs</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to the selected cross reference to operand</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press X key and hold for 0.1 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show cross refs from</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to a cross reference from current location</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+J keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show cross refs to</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to the selected cross reference</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+X keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show referenced blocks</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to a neighboring node (down)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show referenced nodes</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to a neighboring node (down)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show referring blocks</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to a neighboring node (up)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Up keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show referring nodes</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to a neighboring node (up)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Up keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>take branch</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Jump to a neighboring node (down)</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>jump</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Down keys and hold for 0.001 seconds and release, Press Down key and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>pull all metadata</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Pull all Lumina metadata</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>lumina</div></td>
 <td style='word-wrap:break-word'>Press F12 key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>push all metadata</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Push all Lumina metadata</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>lumina</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+F12 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view all metadata</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>View all Lumina metadata</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>lumina</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+F12 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>open debugger menu</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the Debugger menu</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>menu</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+U keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>open edit menu</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the Edit menu</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>menu</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+E keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>open file menu</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the File menu</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>menu</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+F keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>open jump menu</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the Jump menu</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>menu</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+J keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>open lumina menu</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the Lumina menu</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>menu</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+N keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>open options menu</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the Options menu</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>menu</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+O keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>open search menu</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the Search menu</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>menu</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+H keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>open view menu</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the View menu</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>menu</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+V keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>open windows menu</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the Windows menu</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>menu</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+W keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>hide addresses</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Toggle line prefixes</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>options</div></td>
 <td style='word-wrap:break-word'>Execute command, 'open general options' (and wait until it completes), Pause 0.2 seconds, Press Left Alt+P keys and hold for 0.001 seconds and release, Pause 0.2 seconds, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>hide line prefixes</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Toggle line prefixes</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>options</div></td>
 <td style='word-wrap:break-word'>Execute command, 'open general options' (and wait until it completes), Pause 0.2 seconds, Press Left Alt+P keys and hold for 0.001 seconds and release, Pause 0.2 seconds, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>hide opcodes</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set number of opcode bytes to 0</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>options</div></td>
 <td style='word-wrap:break-word'>Execute command, 'open general options' (and wait until it completes), Pause 0.2 seconds, Press Left Alt+D keys and hold for 0.001 seconds and release, Pause 0.2 seconds, Press 0 key and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>hide prefixes</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Toggle line prefixes</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>options</div></td>
 <td style='word-wrap:break-word'>Execute command, 'open general options' (and wait until it completes), Pause 0.2 seconds, Press Left Alt+P keys and hold for 0.001 seconds and release, Pause 0.2 seconds, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>open general options</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the General Options dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>options</div></td>
-<td style='word-wrap:break-word'>Execute command, 'open options menu' (and wait until it completes), Press Enter key and hold for 0.001 seconds and release</td>
+<td style='word-wrap:break-word'>Press Left Alt key and hold for 0.001 seconds and release, Press O key and hold for 0.001 seconds and release, Press G key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show addresses</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Toggle line prefixes</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>options</div></td>
 <td style='word-wrap:break-word'>Execute command, 'open general options' (and wait until it completes), Pause 0.2 seconds, Press Left Alt+P keys and hold for 0.001 seconds and release, Pause 0.2 seconds, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show command palette</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the Command Palette dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>options</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Shift+P keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show commands</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open the Command Palette dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>options</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Shift+P keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show line prefixes</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Toggle line prefixes</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>options</div></td>
 <td style='word-wrap:break-word'>Execute command, 'open general options' (and wait until it completes), Pause 0.2 seconds, Press Left Alt+P keys and hold for 0.001 seconds and release, Pause 0.2 seconds, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show opcodes</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set number of opcode bytes to 8</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>options</div></td>
 <td style='word-wrap:break-word'>Execute command, 'open general options' (and wait until it completes), Pause 0.2 seconds, Press Left Alt+D keys and hold for 0.001 seconds and release, Pause 0.2 seconds, Press 8 key and hold for 0.001 seconds and release, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show prefixes</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Toggle line prefixes</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>options</div></td>
 <td style='word-wrap:break-word'>Execute command, 'open general options' (and wait until it completes), Pause 0.2 seconds, Press Left Alt+P keys and hold for 0.001 seconds and release, Pause 0.2 seconds, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>toggle addresses</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Toggle line prefixes</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>options</div></td>
 <td style='word-wrap:break-word'>Execute command, 'open general options' (and wait until it completes), Pause 0.2 seconds, Press Left Alt+P keys and hold for 0.001 seconds and release, Pause 0.2 seconds, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>toggle line prefixes</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Toggle line prefixes</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>options</div></td>
 <td style='word-wrap:break-word'>Execute command, 'open general options' (and wait until it completes), Pause 0.2 seconds, Press Left Alt+P keys and hold for 0.001 seconds and release, Pause 0.2 seconds, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>toggle prefixes</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Toggle line prefixes</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>options</div></td>
 <td style='word-wrap:break-word'>Execute command, 'open general options' (and wait until it completes), Pause 0.2 seconds, Press Left Alt+P keys and hold for 0.001 seconds and release, Pause 0.2 seconds, Press Enter key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>add pseudo code comment</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Use this command in a Pseudocode window. Opens the dialog to add a comment to the current line</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>pseudocode</div></td>
 <td style='word-wrap:break-word'>Press / ? key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>error operand</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Search for the next error operand</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>search</div></td>
+<td style='word-wrap:break-word'>Press Left Ctrl+F keys and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next bytes</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat search for sequence of bytes</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>search</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+B keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next code</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Search for the next instruction</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>search</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+C keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next data</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Search for the next data item</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>search</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+D keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next explored</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Search for the next instruction or data</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>search</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+A keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next immediate</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat search for immediate value</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>search</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+I keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next text</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Repeat search for text</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>search</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+T keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next unexplored</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Search for the next unexplored byte</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>search</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+U keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next void</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Search for the next instruction with void operand</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>search</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+V keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>search for immediate</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Search for immediate value</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>search</div></td>
+<td style='word-wrap:break-word'>Press Left Alt+I keys and hold for 0.001 seconds and release, Pause 0.5 seconds, Press 0 key and hold for 0.001 seconds and release, Press X key and hold for 0.001 seconds and release, Set Boolean [addressInput] to True</td>
+</tr>
+<tr class='r0'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>search for immediate value</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Search for immediate value</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>search</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+I keys and hold for 0.001 seconds and release, Pause 0.5 seconds, Press 0 key and hold for 0.001 seconds and release, Press X key and hold for 0.001 seconds and release, Set Boolean [addressInput] to True</td>
 </tr>
 <tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>search for immediate value</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>search</div></td>
-<td style='word-wrap:break-word'>Press Left Alt+I keys and hold for 0.001 seconds and release, Pause 0.5 seconds, Press 0 key and hold for 0.001 seconds and release, Press X key and hold for 0.001 seconds and release, Set Boolean [addressInput] to True</td>
-</tr>
-<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>search for sequence of bytes</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Search for sequence of bytes</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>search</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+B keys and hold for 0.001 seconds and release, Set Boolean [addressInput] to True</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>search for text</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Search for text</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>search</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+T keys and hold for 0.001 seconds and release, Set Boolean [addressInput] to True</td>
 </tr>
-<tr class='r0'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>add standard structure</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>structures</div></td>
-<td style='word-wrap:break-word'>Press Insert key and hold for 0.001 seconds and release, Pause 0.2 seconds, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Press Tab key and hold for 0.001 seconds and release, Press Space key and hold for 0.001 seconds and release, Pause 0.2 seconds, Press Left Ctrl+F keys and hold for 0.001 seconds and release, Set Boolean [addressInput] to True</td>
-</tr>
 <tr class='r1'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>add standard structure</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Use this command in the Structures window. Opens "add standard structure" dialog and opens the search text input field</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>structures</div></td>
+<td style='word-wrap:break-word'>Press Insert key and hold for 0.001 seconds and release, Pause 0.2 seconds, Press Left Alt+A keys and hold for 0.001 seconds and release, Pause 0.2 seconds, Press Left Ctrl+F keys and hold for 0.001 seconds and release, Set Boolean [addressInput] to True</td>
+</tr>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>add structure</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Use this command in the Structures window. Opens the "add structure" dialog</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>structures</div></td>
 <td style='word-wrap:break-word'>Press Insert key and hold for 0.1 seconds and release, Set Boolean [addressInput] to True</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>calculator</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open calculator</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Right Shift+/ ? keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>full screen</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Full screen</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press F11 key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>print internal flags</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Print internal flags in the messages window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press F key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>print segment registers</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Print segment registers in the messages window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Space keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>proximity browser</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Show proximity browser</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press NumPad Subtract key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>proximity view</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Show proximity browser</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press NumPad Subtract key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show database snapshot manager</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Show the database snapshot manager</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
+<td style='word-wrap:break-word'>Press Left Ctrl+Left Shift+T keys and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r0'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>show database snapshots</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Show the database snapshot manager</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Shift+T keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>show database snapshots</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
-<td style='word-wrap:break-word'>Press Left Ctrl+Left Shift+T keys and hold for 0.001 seconds and release</td>
-</tr>
-<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show disassembly</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the Disassembly view</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+2 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show enumerations</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the Enumerations window</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
+<td style='word-wrap:break-word'>Press Left Shift+F10 keys and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r1'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>show enums</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the Enumerations window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+F10 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>show enums</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
-<td style='word-wrap:break-word'>Press Left Shift+F10 keys and hold for 0.001 seconds and release</td>
-</tr>
-<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show functions</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the Functions window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+F3 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show local types</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the Local Types Definitions window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+F1 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show names</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the Names window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+F4 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show patched bytes</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the Patched Bytes window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Alt+P keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show recent scripts</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the Recent Scripts window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+F9 keys and hold for 0.1 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show segment registers</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the Segment Registers window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+F8 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show segments</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the Segments window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+F7 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show signatures</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the FLIRT Signatures window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+F5 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show strings</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the Strings window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+F12 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show structs</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the Structures window</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
+<td style='word-wrap:break-word'>Press Left Shift+F9 keys and hold for 0.001 seconds and release</td>
+</tr>
+<tr class='r0'>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>show structures</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the Structures window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+F9 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>show structures</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
-<td style='word-wrap:break-word'>Press Left Shift+F9 keys and hold for 0.001 seconds and release</td>
-</tr>
-<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show type libraries</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Open/show the Type Libraries window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+F11 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>zoom in</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Zoom in</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Shift+NumPad Add keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>zoom one hundred percent</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set zoom to 100%</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press 1 key and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>zoom out</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Zoom out</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>view</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+Left Shift+NumPad Subtract keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r0'>
+<tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>close window</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Close the current window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>windows</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+F3 keys and hold for 0.001 seconds and release</td>
 </tr>
-<tr class='r1'>
+<tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>command line</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>also belongs to input recognition</div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set focus on the command line. "command line" is also recognized in input recognition</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>windows</div></td>
 <td style='word-wrap:break-word'>Begin Boolean Compare : [addressInput] Equals False, Press Left Ctrl+. > keys and hold for 0.001 seconds and release, Else, Set Windows clipboard to 'cmdline', Press Left Ctrl+V keys and hold for 0.001 seconds and release, End Condition</td>
 </tr>
-<tr class='r0'>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>dialog ok</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'>windows</div></td>
-<td style='word-wrap:break-word'>Press Tab key and hold for 0.1 seconds and release, Press Space key and hold for 0.1 seconds and release, Set Boolean [addressInput] to False</td>
-</tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>focus command line</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set focus on the command line</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>windows</div></td>
 <td style='word-wrap:break-word'>Press Left Ctrl+. > keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>next window</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set focus on the next window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>windows</div></td>
 <td style='word-wrap:break-word'>Press F6 key and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>previous window</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set focus on the previous window</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>windows</div></td>
 <td style='word-wrap:break-word'>Press Left Shift+F6 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show window 2</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set focus on window 2</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>windows</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+2 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show window 3</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set focus on window 3</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>windows</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+3 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show window 4</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set focus on window 4</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>windows</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+4 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show window 5</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set focus on window 5</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>windows</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+5 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show window 6</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set focus on window 6</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>windows</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+6 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show window 7</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set focus on window 7</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>windows</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+7 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r0'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show window 8</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set focus on window 8</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>windows</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+8 keys and hold for 0.001 seconds and release</td>
 </tr>
 <tr class='r1'>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>show window 9</div></td>
-<td width='17%'><div style='max-height:4.8em;overflow:hidden'></div></td>
+<td width='17%'><div style='max-height:4.8em;overflow:hidden'>Set focus on window 9</div></td>
 <td width='17%'><div style='max-height:4.8em;overflow:hidden'>windows</div></td>
 <td style='word-wrap:break-word'>Press Left Alt+9 keys and hold for 0.001 seconds and release</td>
 </tr>
